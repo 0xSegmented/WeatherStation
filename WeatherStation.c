@@ -18,6 +18,8 @@ int main() {
     scanf("%lf", &degree);
     celcius = (degree - 32) * .5556;
     printf("Temprature in Celcius = %lf", celcius);
-  }
+  } else {
+    printf("Something went wrong");
+    }
   return 0;
 }
